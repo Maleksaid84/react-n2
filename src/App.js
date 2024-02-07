@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Name from './Name'
+import Price from './Price'
+import Discription from './Discription'
+import Image from './Image';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import BasicExample from './Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Greeting from './Greeting';
+
+
+
 
 function App() {
+
+
+
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+     
+      <Greeting/>
+      <BasicExample/>
     </div>
+
   );
 }
 
 export default App;
+
+
+
+
